@@ -1,1 +1,1 @@
-# Bandits
+# Simple Bandits
