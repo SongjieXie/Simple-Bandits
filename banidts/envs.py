@@ -85,7 +85,10 @@ class MutiBernArmEnv(BaseEnv):
             arms[name] = BernArm(name, p)
         return arms
         
-        
+class ContinusArmsEnv(BaseEnv):
+    pass
+
+
 if __name__ == "__main__":
     arms_names = list(range(10))
     ps = np.random.uniform(0,1, size= 10)
